@@ -33,10 +33,10 @@
     <div class="footer-basic" style="background-color: #efc585;">
         <footer>
             <!-- Start: Social Icons -->
-            <div class="social" style="color: rgb(255,255,255);"><a href="#"><i class="icon ion-social-whatsapp"></i></a><a href="#"><i class="icon ion-email"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <div class="social" style="color: rgb(0,0,0);"><a href="#"><i class="icon ion-social-whatsapp"></i></a><a href="#"><i class="icon ion-email"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
             <!-- End: Social Icons -->
             <!-- Start: Links -->
-            <ul class="list-inline" style="color: rgb(255,255,255);">
+            <ul class="list-inline" style="color: rgb(0,0,0);">
                 <li class="list-inline-item"><a href="#">Home</a></li>
                 <li class="list-inline-item"><a href="#">Services</a></li>
                 <li class="list-inline-item"><a href="#">About</a></li>
@@ -45,10 +45,10 @@
             </ul>
             <!-- End: Links -->
             <!-- Start: Copyright -->
-            <p class="copyright" style="color: rgb(255,255,255);">Corporalle - 2020</p>
+            <p class="copyright" style="color: rgb(0,0,0);">Corporalle - 2020</p>
             <!-- End: Copyright -->
             <!-- Start: Copyright -->
-            <p class="copyright" style="color: rgb(255,255,255);margin-top: 5px;">Desenvolvido por Artica Dev</p>
+            <p class="copyright" style="color: rgb(0,0,0);margin-top: 5px;">Desenvolvido por Artica Dev</p>
             <!-- End: Copyright -->
         </footer>
     </div>

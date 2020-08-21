@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-black clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="#"><img src="assets/img/0cd22a36-c30f-4004-9cea-0752a4fc9cc5-removebg-preview.png" style="height: 50px;width: 100px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
@@ -15,7 +15,7 @@
         </div>
     </nav>
     <main class="page landing-page">
-        <section class="clean-block clean-hero" style="color: rgba(0,0,0,0.85);background: url(https://images.pexels.com/photos/4672626/pexels-photo-4672626.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940) center;height: 60vh;">
+        <section class="clean-block clean-hero" style="color: rgba(0,0,0,0.85);background: url(https://images.pexels.com/photos/4672626/pexels-photo-4672626.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940) center;height: 85vh;">
             <div class="text">
                 <h1 style="font-family: 'Dancing Script', cursive;color: #efc585;">O que você deseja?</h1>
                 <p style="font-family: 'Dancing Script', cursive;font-size: 42px;">Rejuvenescer</p>
