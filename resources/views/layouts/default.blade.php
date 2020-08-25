@@ -38,10 +38,10 @@
             <!-- Start: Links -->
             <ul class="list-inline" style="color: rgb(0,0,0);">
                 <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="#">Área</a></li>
+                <li class="list-inline-item"><a href="#">Tratamentos</a></li>
+                <li class="list-inline-item"><a href="#">Sobre Nós</a></li>
+                <li class="list-inline-item"><a href="#">Localização</a></li>
             </ul>
             <!-- End: Links -->
             <!-- Start: Copyright -->
@@ -55,8 +55,15 @@
     <!-- End: Footer Basic -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="{{ asset('assets/js/smoothproducts.min.js') }}"></script>
+    <script src="{{ asset('assets/js/theme.js') }}"></script>
+    <script src="{{ asset('assets/js/scripts.js') }}"></script>
+    
+
 </body>
 </html>
