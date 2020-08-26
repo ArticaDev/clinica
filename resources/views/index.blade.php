@@ -13,9 +13,9 @@
                     <h1 style="color: rgb(239,197,133);">Escolha por <strong>Área</strong></h1>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-md-6 col-lg-4 col-xl-3" style="margin: 10px auto;"><img class="img-thumbnail" src="https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="border-radius: 100%;width: 250px;height: 250px;"></div>
-                    <div class="col-md-6 col-lg-4 col-xl-3" style="margin: 10px auto;"><img class="img-thumbnail" src="https://images.pexels.com/photos/7700/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="border-radius: 100%;width: 250px;height: 250px;"></div>
-                    <div class="col-md-6 col-lg-4 col-xl-3" style="margin: 10px auto;"><img class="img-thumbnail" src="https://images.pexels.com/photos/3865799/pexels-photo-3865799.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="border-radius: 100%;width: 250px;height: 250px;"></div>
+                    <div class="col-md-6 col-lg-4 col-xl-3" style="margin: 10px auto;"><a href="catalog"><img class="img-thumbnail" src="https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="border-radius: 100%;width: 250px;height: 250px;"></a></div>
+                    <div class="col-md-6 col-lg-4 col-xl-3" style="margin: 10px auto;"><a href="catalog"><img class="img-thumbnail" src="https://images.pexels.com/photos/7700/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="border-radius: 100%;width: 250px;height: 250px;"></a></div>
+                    <div class="col-md-6 col-lg-4 col-xl-3" style="margin: 10px auto;"><a href="catalog"><img class="img-thumbnail" src="https://images.pexels.com/photos/3865799/pexels-photo-3865799.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="border-radius: 100%;width: 250px;height: 250px;"></a></div>
                 </div>
             </div>
         </section>
