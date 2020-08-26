@@ -35,3 +35,18 @@ a {
     color: black !important;
     text-decoration: none !important;
 }
+
+#gallery {
+    background: url(https://images.pexels.com/photos/1909791/pexels-photo-1909791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+        center / cover no-repeat;
+    width: 70vw;
+    height: 250px;
+    padding-top: 0px;
+    margin-top: -15px;
+    transition: 1s;
+}
+#gallery:hover {
+    background: url(https://images.pexels.com/photos/1909791/pexels-photo-1909791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+        bottom / cover no-repeat;
+    transition: 1s;
+}

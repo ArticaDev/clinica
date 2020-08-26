@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home - Corporalle</title>
+    <title>Corporalle</title>
     <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
@@ -24,11 +24,11 @@
 </head>
 <body>
 <nav class="navbar navbar-light fixed-top">
-        <div class="container"><a class="navbar-brand logo js-scroll-trigger" href="/"><img src="assets/img/0cd22a36-c30f-4004-9cea-0752a4fc9cc5-removebg-preview.png" style="height: 50px;width: 100px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand logo js-scroll-trigger home" href="/"><img src="assets/img/0cd22a36-c30f-4004-9cea-0752a4fc9cc5-removebg-preview.png" style="height: 50px;width: 100px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="/">Home</a></li>
+                <li class="nav-item js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger home" href="/">Home</a></li>
                     <li class="nav-item js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#area">Áreas</a></li>
                     <li class="nav-item js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#treatment">Tratamentos</a></li>
                     <li class="nav-item js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#aboutus">Sobre</a></li>
@@ -72,8 +72,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="assets/js/smoothproducts.min.js"></script>
-    <script src="assets/js/theme.js"></script>
     <script src="{{ asset('assets/js/smoothproducts.min.js') }}"></script>
     <script src="{{ asset('assets/js/theme.js') }}"></script>
     <script src="{{ asset('assets/js/scripts.js') }}"></script>

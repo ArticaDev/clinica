@@ -2,6 +2,7 @@
     "use strict"; // Start of use strict
     let pageURL = $(location).attr("pathname");
     if (pageURL === "/") {
+        $(".home").attr("href", "#home");
         $(".navbar-toggler").hide();
         $(window).on("scroll", function () {
             if ($(window).scrollTop() > 10) {

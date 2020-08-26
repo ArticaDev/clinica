@@ -38,7 +38,7 @@
                     <p style="max-width:800px;font-family: 'Dancing Script', cursive;font-size: 24px;color: rgb(0,0,0);">A Corporalle é uma união do melhor em termos de estética e segurança em seus tratamentos.&nbsp;<br></p>
                     <h2 style="color: #efc585;font-family: 'Dancing Script', cursive;margin-top: 32px;">Veja Fotos</h2>
                 </div>
-                <div class="row justify-content-center"><a href="gallery"><img style="background: url(https://images.pexels.com/photos/1909791/pexels-photo-1909791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center / cover no-repeat;width: 70vw;height: 250px;padding-top: 0px;margin-top: -15px;"></div></a>
+                <div class="row justify-content-center"><a href="gallery"><img id="gallery"></div></a>
             </div>
         </section>
         <section class="clean-block slider dark"></section>
