@@ -1,15 +1,21 @@
 (function ($) {
     "use strict"; // Start of use strict
-    $(".navbar-toggler").hide();
-    $(window).on("scroll", function () {
-        if ($(window).scrollTop() > 10) {
-            $(".navbar-toggler").show("fast");
-            $(".navbar").addClass("bg-black");
-        } else {
-            $(".navbar").removeClass("bg-black");
-            $(".navbar-toggler").hide("fast");
-        }
-    });
+    let pageURL = $(location).attr("pathname");
+    if (pageURL === "/") {
+        $(".navbar-toggler").hide();
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 10) {
+                $(".navbar-toggler").show("fast");
+                $(".navbar").addClass("bg-black");
+            } else {
+                $(".navbar-collapse").collapse("hide");
+                $(".navbar").removeClass("bg-black");
+                $(".navbar-toggler").hide("fast");
+            }
+        });
+    } else {
+        $(".navbar").addClass("bg-black");
+    }
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
@@ -25,7 +31,7 @@
             if (target.length) {
                 $("html, body").animate(
                     {
-                        scrollTop: target.offset().top - 48,
+                        scrollTop: target.offset().top - 100,
                     },
                     1000,
                     "easeInOutExpo"
