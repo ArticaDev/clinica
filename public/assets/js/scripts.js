@@ -18,6 +18,10 @@
         $(".navbar").addClass("bg-black");
     }
 
+    $(".search").click(function () {
+        $(".search-in").toggle("slide", { direction: "right" });
+    });
+
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (

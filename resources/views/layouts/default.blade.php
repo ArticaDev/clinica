@@ -44,6 +44,10 @@
         </div>
     </nav>
 
+<div class="searchcont">
+<button class="search"><i class="icon-magnifier d-flex flex-center"></i></button>
+<input class="search-in" type="search">  </div>
+
 <!-- END HEADER --> 
 <!-- START CONTENT -->
 @yield('content')
@@ -80,6 +84,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
     <script src="{{ asset('assets/js/smoothproducts.min.js') }}"></script>
     <script src="{{ asset('assets/js/theme.js') }}"></script>
     <script src="{{ asset('assets/js/scripts.js') }}"></script>

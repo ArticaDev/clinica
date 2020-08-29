@@ -59,3 +59,44 @@ a {
         bottom / cover no-repeat;
     transition: 1s;
 }
+
+.search {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: #efc585;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 80vh;
+    left: 90vw;
+}
+
+.icon-magnifier {
+    font-size: 20px;
+}
+
+.search-in {
+    display: none;
+    border: 0px;
+    position: fixed;
+    width: 25vw;
+    height: 50px;
+    background-color: #efc585;
+    z-index: 10;
+    top: 80vh;
+    left: calc(90vw - (25vw - 50px));
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .searchcont {
+        display: none;
+    }
+}
+
+.searchcont:focus {
+    outline: hidden !important;
+}
