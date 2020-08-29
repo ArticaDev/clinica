@@ -1,12 +1,74 @@
 @extends('layouts.default')
 @section('content')
     <main id="home" class="page landing-page">
-        <section class="clean-block clean-hero" style="color: rgba(0,0,0,0.85);background: url(https://images.pexels.com/photos/4672626/pexels-photo-4672626.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940) center;height: 85vh;">
-            <div class="text">
-                <h1 style="font-family: 'Dancing Script', cursive;color: #efc585;">O que você deseja?</h1>
-                <p style="font-family: 'Dancing Script', cursive;font-size: 42px;">Rejuvenescer</p>
-            </div>
-        </section>
+
+<section><!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+      <a href="#">
+        <img style="height:95vh;"class="d-block w-100" src="https://images.pexels.com/photos/4672626/pexels-photo-4672626.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940"
+          alt="First slide">
+        <div class="mask rgba-black-strong"></div></a>
+      </div>
+      <div class="carousel-caption">
+      <h1 style="font-family: 'Dancing Script', cursive;color: #efc585;">O que você deseja?</h1>
+        <p style="font-family: 'Dancing Script', cursive;font-size: 42px;">Rejuvenescer</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="view">
+      <a href="#">
+        <img style="height:95vh;"class="d-block w-100" src="https://images.pexels.com/photos/3771835/pexels-photo-3771835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="First slide">
+        <div class="mask rgba-black-strong"></div></a>
+      </div>
+      <div class="carousel-caption">
+      <h1 style="font-family: 'Dancing Script', cursive;color: #efc585;">O que você deseja?</h1>
+        <p style="font-family: 'Dancing Script', cursive;font-size: 42px;">Emagrecer</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="view">
+      <a href="#">
+        <img style="height:95vh;"class="d-block w-100" src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="First slide">
+        <div class="mask rgba-black-strong"></div></a>
+      </div>
+      <div class="carousel-caption">
+      <h1 style="font-family: 'Dancing Script', cursive;color: #efc585;">O que você deseja?</h1>
+        <p style="font-family: 'Dancing Script', cursive;font-size: 42px;">Relaxar</p>
+      </div>
+    </div>
+
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+</section>
+
+
+
         <section id="area" class="clean-block clean-info dark">
             <div class="container">
                 <div class="block-heading">

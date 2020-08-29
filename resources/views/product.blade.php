@@ -26,10 +26,10 @@
                             <div class="col-md-6">
                                 <div class="info">
                                     <h3 class="text-center">Massagem redutora</h3>
-                                    <div class="rating d-flex justify-content-center"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"></div>
+                                   <!-- <div class="rating d-flex justify-content-center"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"></div>
                                     <div class="price">
                                         <h3>R$ XXXXXX</h3>
-                                    </div><button class="btn btn-dark" type="button"><i class="icon-calendar"></i>Agendar</button>
+                                    </div><button class="btn btn-dark" type="button"><i class="icon-calendar"></i>Agendar</button>-->
                                     <div class="summary">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Vestibulum diam risus, sagittis at fringilla at, pulvinar vel risus. Vestibulum dignissim
                                             eu nulla eu imperdiet. Morbi mollis tellus a nunc vestibulum consequat. Quisque tristique elit et nibh dapibus sodales. Nam sollicitudin a urna sed iaculis.</p>
@@ -42,7 +42,7 @@
                         <div>
                             <ul class="nav nav-tabs" id="myTab">
                                 <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" id="description-tab" href="#description">Descrição</a></li>
-                                <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" id="reviews-tab" href="#reviews">Avaliações</a></li>
+                                <!--<li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" id="reviews-tab" href="#reviews">Avaliações</a></li>-->
                             </ul>
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane active fade show description" role="tabpanel" id="description">
@@ -68,7 +68,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade show" role="tabpanel" id="reviews">
+                                <!--<div class="tab-pane fade show" role="tabpanel" id="reviews">
                                     <div class="reviews">
                                         <div class="review-item">
                                             <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-empty.svg"></div>
@@ -90,7 +90,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -102,8 +102,8 @@
                                     <div class="clean-related-item">
                                         <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></a></div>
                                         <div class="related-name"><a href="#">Lorem Ipsum dolor</a>
-                                            <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
-                                            <h4>$300</h4>
+                                            <!--<div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                            <h4>$300</h4>-->
                                         </div>
                                     </div>
                                 </div>
@@ -111,8 +111,8 @@
                                     <div class="clean-related-item">
                                         <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></a></div>
                                         <div class="related-name"><a href="#">Lorem Ipsum dolor</a>
-                                            <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
-                                            <h4>$300</h4>
+                                            <!--<div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                            <h4>$300</h4>-->
                                         </div>
                                     </div>
                                 </div>
@@ -120,8 +120,8 @@
                                     <div class="clean-related-item">
                                         <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="https://images.pexels.com/photos/1029896/pexels-photo-1029896.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></a></div>
                                         <div class="related-name"><a href="#">Lorem Ipsum dolor</a>
-                                            <div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
-                                            <h4>$300</h4>
+                                            <!--<div class="rating"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star.svg"><img src="assets/img/star-half-empty.svg"><img src="assets/img/star-empty.svg"></div>
+                                            <h4>$300</h4>-->
                                         </div>
                                     </div>
                                 </div>

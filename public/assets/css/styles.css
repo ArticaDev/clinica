@@ -1,5 +1,14 @@
 .navbar {
+    box-shadow: 0 0 black !important;
     transition: 0.5s;
+}
+
+body {
+    font-family: Montserrat !important;
+}
+
+strong {
+    font-weight: bold !important;
 }
 
 .bg-black {
