@@ -18,8 +18,20 @@
         $(".navbar").addClass("bg-black");
     }
 
+    var isTriggered = 0;
     $(".search").click(function () {
-        $(".search-in").toggle("slide", { direction: "right" });
+        if (isTriggered == 0) {
+            $(".search-in").toggle("slide", { direction: "right" });
+            isTriggered = 1;
+        } else {
+            if ($(".search-in").val() == "") {
+                $(".search-in").toggle("slide", { direction: "right" });
+                isTriggered = 0;
+            } else {
+                window.location.replace("#");
+                isTriggered = 0;
+            }
+        }
     });
 
     // Smooth scrolling using jQuery easing

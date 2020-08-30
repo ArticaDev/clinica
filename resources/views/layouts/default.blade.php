@@ -46,7 +46,7 @@
 
 <div class="searchcont">
 <button class="search"><i class="icon-magnifier d-flex flex-center"></i></button>
-<input class="search-in" type="search">  </div>
+<input class="search-in" type="text">  </div>
 
 <!-- END HEADER --> 
 <!-- START CONTENT -->
