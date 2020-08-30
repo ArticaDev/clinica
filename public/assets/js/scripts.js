@@ -17,7 +17,7 @@
     } else {
         $(".navbar").addClass("bg-black");
     }
-
+    //search button logic
     var isTriggered = 0;
     $(".search").click(function () {
         if (isTriggered == 0) {
@@ -32,6 +32,13 @@
                 isTriggered = 0;
             }
         }
+    });
+
+    //infinite scroll
+    $(".content").infiniteScroll({
+        path: ".pagination__next",
+        append: ".catalog",
+        hideNav: ".pagination",
     });
 
     // Smooth scrolling using jQuery easing
