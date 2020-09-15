@@ -1,3 +1,102 @@
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.navbar {
+    box-shadow: 0 0 black !important;
+    transition: 0.5s;
+}
+
+body {
+    font-family: Montserrat !important;
+}
+
+strong {
+    font-weight: bold !important;
+}
+
+.bg-black {
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0, 1);
+}
+.nav-link,
+.text-color {
+    color: #efc585 !important;
+}
+.page {
+    padding-top: 0px !important;
+}
+.navbar-toggler-icon {
+    background-image: url("../img/menu-outline.svg") !important;
+}
+
+.page-link {
+    background-color: white !important;
+    color: black !important;
+}
+.img-thumbnail {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+.img-thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.1);
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: 1s;
+}
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+#gallery {
+    background: url(https://images.pexels.com/photos/1909791/pexels-photo-1909791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+        center / cover no-repeat;
+    width: 70vw;
+    height: 250px;
+    padding-top: 0px;
+    margin-top: -15px;
+    transition: 1s;
+}
+#gallery:hover {
+    background: url(https://images.pexels.com/photos/1909791/pexels-photo-1909791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+        bottom / cover no-repeat;
+    transition: 1s;
+}
+
+.search {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: #efc585;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 80vh;
+    left: 90vw;
+}
+
+.icon-magnifier {
+    font-size: 20px;
+}
+
+.search-in {
+    display: none;
+    border: 0px;
+    position: fixed;
+    width: 25vw;
+    height: 50px;
+    background-color: #efc585;
+    z-index: 10;
+    top: 80vh;
+    left: calc(90vw - (25vw - 50px));
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .searchcont {
+        display: none;
+    }
+}
+
+.searchcont:focus {
+    outline: hidden !important;
 }
